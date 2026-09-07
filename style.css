@@ -132,3 +132,32 @@ img {
         margin-top: 50px;
     }
 }
+.site-footer {
+    background-color: #0b0b0b;
+    border-top: 1px solid rgba(212, 175, 55, 0.2); /* Fine ligne dorée élégante */
+    padding: 30px 20px;
+    text-align: center;
+    color: #888888;
+    font-size: 13px;
+}
+
+.site-footer p {
+    margin-bottom: 12px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #d4af37; /* Doré Yola Art Paris au survol */
+}
